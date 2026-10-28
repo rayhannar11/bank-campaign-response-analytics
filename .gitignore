@@ -1,0 +1,23 @@
+# Secrets
+.env
+# Data & model artifacts (regenerate via notebooks)
+data/raw/*
+data/processed/*
+models/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+.pytest-tmp*/
+.jupyter-tmp/
+# OS / editor
+.DS_Store
+.vscode/
+# Excel temp
+~$*.xlsx
